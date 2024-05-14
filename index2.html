@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Generator</title>
+    <link rel="stylesheet" href="styling2.css">
+</head>
+<body>
+    <div id="container">
+        <div id="input_container">
+            <input type="text" placeholder="Enter Your City Name" id="search_input" value="Virar">
+            <button id="searchButton"></button>
+        </div>
+        <div class="weather_details">
+            <div id="weather_icon">
+                <img id="weather_icon" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwFTkt5z_dxU6w1UnS1PxiZV3HDiPGsAW5Lrsp09MnlCmkQre9GzO8MnGytaaY1eZoqBN6SMJ4U578_uDtiuXswovr1T3o-Kt5KK0mlN_zC0RDodJFaKHQ3Uk-HIZ3vuMvAKNJi8DDFwWA7F6BOxz78Oh-UePwJTuc3PG0ZIZypPE1xlMPl5z46joaEw/s320/Clouds.png" alt="clouds" width="155px" height="155px">
+            </div>
+            <div id="cityDetails">
+                <div id="weather"></div>
+                <div id="desc"></div>
+            </div>
+            <div id="wind_humidity">
+                <div id="humidity">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgr7XehXJkOPXbZr8xL42sZEFYlS-1fQcvUMsS2HrrV8pcj3GDFaYmYmeb3vXfMrjGXpViEDVfvLcqI7pJ03pKb_9ldQm-Cj9SlGW2Op8rxArgIhlD6oSLGQQKH9IqH1urPpQ4EAMCs3KOwbzLu57FDKv01PioBJBdR6pqlaxZTJr3HwxOUlFhC9EFyw/s320/thermometer.png" alt="" width="48" height="48" >
+                    <div><p id="humiditi"></p><span>Humidity</span></div>
+                </div>
+                <div id="wind_speed">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyaIguDPkbBMnUDQkGp3wLRj_kvd_GIQ4RHQar7a32mUGtwg3wHLIe0ejKqryX8dnJu-gqU6CBnDo47O7BlzCMCwRbB7u0Pj0CbtGwtyhd8Y8cgEMaSuZKrw5-62etXwo7UoY509umLmndsRmEqqO0FKocqTqjzHvJFC2AEEYjUax9tc1JMWxIWAQR4g/s320/wind.png" alt="" width="48" height="48">
+                    <div><p id="wind"></p><span>Wind Speed</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="javascript2.js"></script>
+</body>
+</html>
